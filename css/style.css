@@ -1,0 +1,113 @@
+@font-face{
+    font-family: "Montauk-Bold";
+    src: url(../Montauk-Regular/Montauk-Bold.otf);
+}
+@font-face{
+    font-family: "Montauk-Italic";
+    src: url(../Montauk-Regular/Montauk-Italic.otf);
+}
+@font-face{
+    font-family: "Montauk-Light";
+    src: url(../Montauk-Regular/Montauk-Light.otf);
+}
+@font-face{
+    font-family: "Montauk-Regular";
+    src: url(../Montauk-Regular/Montauk-Regular.otf);
+}
+body {
+    background-image: url("../images/bgtexture.jpg");
+}
+
+@media only screen and (max-width: 991px) {
+    .imgRow {
+      padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 7700px) {
+    #maincontTitle {
+        font-family: "Montauk-Italic";
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #maincontTitle {
+      font-family: "Montauk-Italic";
+      font-size: 40px;
+      font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #maincontTitle {
+      font-family: "Montauk-Italic";
+      font-size: 22px;
+      font-weight: bold;
+    }
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5F002B;
+}
+
+.nav-link{
+    font-family: "Montauk-Italic";
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#inRowItems {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.mainCont{
+    background-color: white;
+    color: #5F002B;
+}
+
+/* #maincontTitle{
+    font-family: "Montauk-Italic";
+    font-size: 70px;
+    font-weight: bold;
+} */
+
+#mainPText{
+    color: #5F002B;
+    font-family: "Montauk-Light";
+    font-size: 20px;
+}
+
+.col-lg-6 p{
+    color: #5F002B;
+}
+
+
+#mainHeroImage{
+    width: 100%;
+}
+
+#homeSingleImage{
+    width: 100%; 
+    height: 100%;
+}
+
+#homeImage{
+    width: 100%; 
+    height: auto;
+}
+
+.addBigPad{
+    padding: 0px 150px 0px 150px;
+}
+
+.botImage{
+    height: 40px;
+}

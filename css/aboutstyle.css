@@ -1,0 +1,87 @@
+@font-face{
+    font-family: "Montauk-Bold";
+    src: url(../Montauk-Regular/Montauk-Bold.otf);
+}
+@font-face{
+    font-family: "Montauk-Italic";
+    src: url(../Montauk-Regular/Montauk-Italic.otf);
+}
+@font-face{
+    font-family: "Montauk-Light";
+    src: url(../Montauk-Regular/Montauk-Light.otf);
+}
+@font-face{
+    font-family: "Montauk-Regular";
+    src: url(../Montauk-Regular/Montauk-Regular.otf);
+}
+
+@media only screen and (max-width: 538px) {
+    #grillTitle {
+      font-size: 55px;
+    }
+}
+
+body {
+    background-image: url("../images/bgtexture.jpg");
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5F002B;
+}
+
+
+.nav-link{
+    font-family: "Montauk-Italic";
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+h1{
+    font-family: "Montauk-Italic";
+    font-size: 70px;
+    font-weight: bold;
+    color: #5F002B;
+}
+
+#ourTeam{
+    font-family: "Montauk-Italic";
+    font-weight: bold;
+    font-size: 45px;
+    color: #5F002B;
+}
+
+h2{
+    font-family: "Montauk-Italic";
+    font-weight: bold;
+    font-size: 40px;
+    color: #5F002B;
+    text-indent: 10px;
+}
+
+p{
+    color: #5F002B;
+}
+
+#oddImage{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ourCol{
+    background-color: white;
+}
+
+.addBigPad{
+    padding: 0px 150px 0px 150px;
+}
+
+.addSmallPad{
+    padding: 0px 15px 0px 15px;
+}
+
+
+#companyLogoImage{
+    height: 40px;
+}
