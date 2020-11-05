@@ -24,6 +24,7 @@ body {
     }
 }
 
+
 @media only screen and (max-width: 7700px) {
     #maincontTitle {
         font-family: "Montauk-Italic";
@@ -43,7 +44,7 @@ body {
 @media only screen and (max-width: 414px) {
     #maincontTitle {
       font-family: "Montauk-Italic";
-      font-size: 22px;
+      font-size: 40px;
       font-weight: bold;
     }
 }
@@ -73,11 +74,6 @@ body {
     color: #5F002B;
 }
 
-/* #maincontTitle{
-    font-family: "Montauk-Italic";
-    font-size: 70px;
-    font-weight: bold;
-} */
 
 #mainPText{
     color: #5F002B;
@@ -104,8 +100,10 @@ body {
     height: auto;
 }
 
-.addBigPad{
-    padding: 0px 150px 0px 150px;
+@media only screen and (min-width: 991px) {
+    .addBigPad{
+        padding: 0px 150px 0px 150px;
+    }
 }
 
 .botImage{

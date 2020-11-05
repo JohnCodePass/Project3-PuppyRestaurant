@@ -73,8 +73,10 @@ p{
     background-color: white;
 }
 
-.addBigPad{
-    padding: 0px 150px 0px 150px;
+@media only screen and (min-width: 991px) {
+    .addBigPad{
+        padding: 0px 150px 0px 150px;
+    }
 }
 
 .addSmallPad{
