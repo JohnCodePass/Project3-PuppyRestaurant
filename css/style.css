@@ -27,25 +27,18 @@ body {
 
 @media only screen and (max-width: 7700px) {
     #maincontTitle {
-        font-family: "Montauk-Italic";
-        font-size: 70px;
-        font-weight: bold;
+        font-family: 'Fugaz One', cursive;
+        /* font-family: "Montauk-Italic"; */
+        font-size: 50px;
+        
     }
 }
 
 @media only screen and (max-width: 620px) {
     #maincontTitle {
-      font-family: "Montauk-Italic";
-      font-size: 39px;
-      font-weight: bold;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    #maincontTitle {
-      font-family: "Montauk-Italic";
+        font-family: 'Fugaz One', cursive;
+      /* font-family: "Montauk-Italic"; */
       font-size: 40px;
-      font-weight: bold;
     }
 }
 
@@ -55,9 +48,9 @@ body {
 }
 
 .nav-link{
-    font-family: "Montauk-Italic";
-    font-size: 30px;
-    font-weight: bold;
+    font-family: 'Fugaz One', cursive;
+    /* font-family: "Montauk-Italic"; */
+    font-size: 25px;
     margin-left: 40px;
 }
 

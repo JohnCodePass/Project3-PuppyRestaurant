@@ -31,30 +31,26 @@ body {
 
 
 .nav-link{
-    font-family: "Montauk-Italic";
-    font-size: 30px;
-    font-weight: bold;
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
     margin-left: 40px;
 }
 
 h1{
-    font-family: "Montauk-Italic";
-    font-size: 70px;
-    font-weight: bold;
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
     color: #5F002B;
 }
 
 #ourTeam{
-    font-family: "Montauk-Italic";
-    font-weight: bold;
-    font-size: 45px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
     color: #5F002B;
 }
 
 h2{
-    font-family: "Montauk-Italic";
-    font-weight: bold;
-    font-size: 40px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 30px;
     color: #5F002B;
     text-indent: 10px;
 }
