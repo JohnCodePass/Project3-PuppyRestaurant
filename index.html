@@ -1,5 +1,24 @@
 <!doctype html>
 <html lang="en">
+    
+<?xml version="1.0"?>
+<configuration>
+    <system.webServer>
+
+        <staticContent>
+            <mimeMap fileExtension=".json" mimeType="application/json" />
+            <mimeMap fileExtension=".otf" mimeType="font/otf" />
+
+            <remove fileExtension=".woff" />
+            <mimeMap fileExtension=".woff" mimeType="application/font-woff" />
+            <remove fileExtension=".woff2" />
+            <mimeMap fileExtension=".woff2" mimeType="application/font-woff2" />
+        </staticContent>
+
+
+
+    </system.webServer>
+</configuration>
 
 <head>
     <!-- Required meta tags -->
@@ -55,7 +74,8 @@
             <div id="inRowItems" class="col-lg-7 col-md-12">
                 <div class="container px-5 pt-3 pb-5 mainCont">
                     <h1 id="maincontTitle">Muzzles Sandwiches & Grill</h1>
-                    <p id="mainPText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p id="mainPText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                         ut
@@ -77,8 +97,8 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="row d-flex justify-content-end">
-                    <img class="img-fluid botImage" src="./images/CompanyLogo.png"  alt="">
-                </div> 
+                    <img class="img-fluid botImage" src="./images/CompanyLogo.png" alt="">
+                </div>
                 <p class="text-right">Copyright © Muzzles Restaurant</p>
             </div>
         </div>
