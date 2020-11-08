@@ -59,7 +59,7 @@ body {
 }
 
 @font-face{
-    src: url(/fonts/FugazOne-Regular.ttf);
+    src: url(../fonts/FugazOne-Regular.ttf);
     font-family: fugaz;
 
 } 
@@ -70,7 +70,7 @@ body {
 }
 
 @font-face{
-    src: url(/fonts/Montauk-Regular.otf);
+    src: url(../fonts/Montauk-Regular.otf);
     font-family: montaukReg;
 
 }
@@ -97,4 +97,10 @@ hr{
 
 #companyLogoImage{
     height: 40px;
+}
+
+@media only screen and (max-width: 475px) {
+    .addBigPad {
+      padding: 0px;
+    }
 }
