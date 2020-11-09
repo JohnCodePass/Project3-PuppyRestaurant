@@ -28,6 +28,11 @@
     background-color: white;
 }
 
+.mainCont{
+    background-color: white;
+    color: #5F002B;
+}
+
 body {
     background-image: url("../RestaurantMockupFiles/assets/bgtexture.jpg");
     color:#5F002B ;
