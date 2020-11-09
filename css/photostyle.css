@@ -1,0 +1,113 @@
+@font-face{
+    font-family: "Montauk-Bold";
+    src: url(../Montauk-Regular/Montauk-Bold.otf);
+}
+@font-face{
+    font-family: "Montauk-Italic";
+    src: url(../Montauk-Regular/Montauk-Italic.otf);
+}
+@font-face{
+    font-family: "Montauk-Light";
+    src: url(../Montauk-Regular/Montauk-Light.otf);
+}
+@font-face{
+    font-family: "Montauk-Regular";
+    src: url(../Montauk-Regular/Montauk-Regular.otf);
+}
+body {
+    background-image: url("../images/bgtexture.jpg");
+}
+
+.card{
+    border: 10px solid white;
+}
+.nav-link{
+    font-family: 'Fugaz One', cursive;
+    /* font-family: "Montauk-Italic"; */
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5F002B;
+}
+
+.addBigPad{
+    padding: 0px 150px 0px 150px;
+}
+
+.addSmallPad{
+    padding: 0px 15px 0px 15px;
+}
+
+#ourTeam{
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    color: #5F002B;
+}
+
+.ourCol{
+    background-color: white;
+}
+.text{
+    text-align: center;
+}
+
+.footerPd{
+    padding-top: 5%;
+}
+
+.ourMenuPadding{
+    padding-left: 7.2%;
+    padding-right: 7.2%;
+}
+
+.ourMenuText{
+    font-size:60px;
+    color: #5F002B;
+}
+
+.textColor{
+    color: #5F002B;
+}
+
+@font-face{
+    src: url("/fonts/FugazOne-Regular.ttf");
+    font-family: fugaz;
+} 
+
+.fontStylefugaz{
+    font-family: fugaz;
+}
+
+.montaukReg{
+    font-family: "Montauk-Regular";
+}
+
+.textSizeh5{
+    font-size: 35px;
+}
+
+.fontLabels{
+    font-size: 30px;
+}
+
+hr{
+    background-color :#980051;
+}
+
+#companyLogoImage{
+    height: 40px;
+}
+
+@media only screen and (max-width: 475px) {
+    .addBigPad {
+      padding: 0px;
+    }
+}
+
+.col-lg-6 p{
+    color: #5F002B;
+    font-family: "Montauk-Regular";
+    font-size: 20px;
+}
