@@ -1,0 +1,124 @@
+.nav-link{
+    font-family: 'Fugaz One', cursive;
+    /* font-family: "Montauk-Italic"; */
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5F002B;
+}
+
+
+.addBigPad{
+    padding: 0px 150px 0px 150px;
+}
+
+.addSmallPad{
+    padding: 0px 15px 0px 15px;
+}
+
+#ourTeam{
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    color: #5F002B;
+}
+
+.ourCol{
+    background-color: white;
+}
+
+.mainCont{
+    background-color: white;
+    color: #5F002B;
+}
+
+body {
+    background-image: url("../RestaurantMockupFiles/assets/bgtexture.jpg");
+    color:#5F002B ;
+}
+.text{
+    text-align: center;
+}
+
+.footerPd{
+
+    padding-top: 5%;
+}
+
+.ourMenuPadding{
+
+    padding-left: 7.2%;
+    padding-right: 7.2%;
+}
+
+.ourMenuText{
+
+    font-size:60px;
+    color: #5F002B;
+}
+
+.textColor{
+
+    color: #5F002B;
+}
+
+@font-face{
+    src: url(../fonts/FugazOne-Regular.ttf);
+    font-family: fugaz;
+
+} 
+
+.fontStylefugaz{
+
+    font-family: fugaz;
+}
+
+@font-face{
+    src: url(../fonts/Montauk-Regular.otf);
+    font-family: montaukReg;
+
+}
+.montaukReg{
+
+    font-family: montaukReg;
+    
+}
+
+.textSizeh5{
+
+    font-size: 35px;
+}
+
+.fontLabels{
+
+    font-size: 30px;
+}
+
+hr{
+
+    background-color :#980051;
+}
+
+#companyLogoImage{
+    height: 40px;
+}
+
+@media only screen and (max-width: 475px) {
+    .addBigPad {
+      padding: 0px;
+    }
+}
+
+#homeSingleImage{
+
+  width: 100%; height: 100%;
+}
+
+#inRowItems {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px;
+}
